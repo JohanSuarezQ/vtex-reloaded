@@ -1,0 +1,367 @@
+{
+    // CONTENEDOR DEL HEADER PRINCIPAL
+
+    "header-row#desktop__header-container":{
+        "children":[
+            "flex-layout.row#desktop__container--center"
+        ],
+        "props":{
+            "blockClass": "desktop__header-container"
+        }
+    },
+
+    // CONTENEDOR DE LOGO, BENEFICIOS Y CARRITO
+
+    "flex-layout.row#desktop__container--center":{
+        "children":[
+            // "rich-text#prueba"
+            "flex-layout.row#container__center--logo",
+            "flex-layout.row#container__center--benefits-cart"
+        ],
+        "props":{
+            "blockClass": "desktop__container--center",
+            "colSizing": "auto"
+        }
+    },
+
+    // LOGO
+
+    "flex-layout.row#container__center--logo": {
+      "children": [
+          "logo#desktop__logo"
+        ],
+      "props": {
+        "blockClass": [
+            "container__center--logo"
+        ]
+      }
+    },
+
+    "logo#desktop__logo": {
+        "props": {
+            "blockClass": "desktop__logo",
+            "href": "https://mshopsoficiales.kubocloud.com/mx/croydon/logo-Crodon.png",
+            "url": "https://mshopsoficiales.kubocloud.com/mx/croydon/logo-Crodon.png",
+            "width": "100%"
+        }
+    },
+
+    // BENEFICIOS
+
+    "flex-layout.row#container__center--benefits-cart": {
+      "children": [
+          "flex-layout.row#benefits__col-01",
+          "flex-layout.row#benefits__col-02",
+          "flex-layout.row#benefits__col-03",
+          "flex-layout.row#benefits__col-04",
+          "flex-layout.row#benefits__col-cart"
+        ],
+      "props": {
+        "blockClass": ["container__center--benefits-cart"],
+        "preventHorizontalStretch": true,
+        "colGap": 5
+        // "borderColor": "red",
+        //     "border": "all",
+        //     "borderWidth": 2
+      }
+    },
+
+    // COLUMNA 1 BENEFICIOS
+
+    "flex-layout.row#benefits__col-01":{
+        "children":[
+            "flex-layout.col#benefits__col-01--image",
+            "flex-layout.col#benefits__col-01--text"
+        ],
+        "props":{
+            "blockClass":"benefits__col-01",
+            // "borderColor": "black",
+            // "border": "all",
+            // "borderWidth": 2,
+            "colSizing": "auto",
+            "colGap": 2
+        }
+    },
+
+    "flex-layout.col#benefits__col-01--image":{
+        "children":[
+            "image#benefits__col-01--image"
+        ],
+        "props":{
+            "verticalAlign": "middle"
+            // "borderColor": "blue",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+    
+    "flex-layout.col#benefits__col-01--text":{
+        "children":[
+            "rich-text#benefits__col-01--text"
+        ],
+        "props":{
+            // "borderColor": "orange",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+
+    "image#benefits__col-01--image": {
+        "props": {
+            "blockClass": ["01"],
+            "maxHeight": 37,
+            "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/pagos_icon.png"
+        }
+    },
+
+    "rich-text#benefits__col-01--text":{
+        "props":{
+            "blockClass": "benefits__col--text",
+            "font": "t-mini",
+            "text": "Múltiples \n medios de pago"
+        }
+    },
+
+    // COLUMNA 2 BENEFICIOS
+
+    "flex-layout.row#benefits__col-02":{
+        "children":[
+            "flex-layout.col#benefits__col-02--image",
+            "flex-layout.col#benefits__col-02--text"
+        ],
+        "props":{
+            // "blockClass":"benefits__col-01",
+            // "borderColor": "black",
+            // "border": "all",
+            // "borderWidth": 2,
+            "colSizing": "auto",
+            "colGap": "2"
+        }
+    },
+
+    "flex-layout.col#benefits__col-02--image":{
+        "children":[
+            "image#benefits__col-02--image"
+        ],
+        "props":{
+            "verticalAlign": "middle"
+            // "borderColor": "blue",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+    
+    "flex-layout.col#benefits__col-02--text":{
+        "children":[
+            "rich-text#benefits__col-02--text"
+        ],
+        "props":{
+            // "borderColor": "orange",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+
+    "image#benefits__col-02--image": {
+        "props": {
+            "blockClass": ["02"],
+            "maxHeight": 37,
+            "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/seguridad_icon.png"
+        }
+    },
+
+    "rich-text#benefits__col-02--text":{
+        "props":{
+            "blockClass": "benefits__col--text",
+            "font": "t-mini",
+            "text": "Compra \n 100% segura"
+        }
+    },
+
+// COLUMNA 3 BENEFICIOS
+
+    "flex-layout.row#benefits__col-03":{
+        "children":[
+            "flex-layout.col#benefits__col-03--image",
+            "flex-layout.col#benefits__col-03--text"
+        ],
+        "props":{
+            // "blockClass":"benefits__col-01",
+            // "borderColor": "black",
+            // "border": "all",
+            // "borderWidth": 2,
+            "colSizing": "auto",
+            "colGap": "2"
+        }
+    },
+
+    "flex-layout.col#benefits__col-03--image":{
+        "children":[
+            "image#benefits__col-03--image"
+        ],
+        "props":{
+            "verticalAlign": "middle"
+            // "borderColor": "blue",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+    
+    "flex-layout.col#benefits__col-03--text":{
+        "children":[
+            "rich-text#benefits__col-03--text"
+        ],
+        "props":{
+            // "borderColor": "orange",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+
+    "image#benefits__col-03--image": {
+        "props": {
+            "blockClass": ["03"],
+            "maxHeight": 37,
+            "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/cambios_icon.png"
+        }
+    },
+
+    "rich-text#benefits__col-03--text":{
+        "props":{
+            "blockClass": "benefits__col--text",
+            "font": "t-mini",
+            "text": "Cambios sin \n ningún costo"
+        }
+    },
+
+// COLUMNA 4 BENEFICIOS
+
+    "flex-layout.row#benefits__col-04":{
+        "children":[
+            "flex-layout.col#benefits__col-04--image",
+            "flex-layout.col#benefits__col-04--text"
+        ],
+        "props":{
+            // "blockClass":"benefits__col-01",
+            // "borderColor": "black",
+            // "border": "all",
+            // "borderWidth": 2,
+            "colSizing": "auto",
+            "colGap": "2"
+        }
+    },
+
+    "flex-layout.col#benefits__col-04--image":{
+        "children":[
+            "image#benefits__col-04--image"
+        ],
+        "props":{
+            "verticalAlign": "middle"
+            // "borderColor": "blue",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+    
+    "flex-layout.col#benefits__col-04--text":{
+        "children":[
+            "rich-text#benefits__col-04--text"
+        ],
+        "props":{
+            // "borderColor": "orange",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+
+    "image#benefits__col-04--image": {
+        "props": {
+            "blockClass": ["04"],
+            "maxHeight": 37,
+            "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/envios_icon.png"
+        }
+    },
+
+    "rich-text#benefits__col-04--text":{
+        "props":{
+            "blockClass": "benefits__col--text",
+            "font": "t-mini",
+            "text": "Envíos a \n todo el país"
+        }
+    },
+
+    // COLUMNA CART
+
+
+    "flex-layout.row#benefits__col-cart":{
+        "children":[
+            "minicart.v2",
+            "flex-layout.col#benefits__col-cart--text"
+        ],
+        "props":{
+            // "blockClass":"benefits__col-01",
+            // "borderColor": "black",
+            // "border": "all",
+            // "borderWidth": 2,
+            "colSizing": "auto",
+            "colGap": "2"
+        }
+    },
+
+    "minicart.v2":{
+        "props":{
+            "variation": "link"
+        }
+    },
+
+
+    // "minicart.v2#benefits__col-cart--icon": {
+    //     "props": {
+    //       "MinicartIcon": "icon-cart#minicart-icon"
+    //     },
+    //     "children": ["minicart-base-content"]
+    //   },
+    //   "icon-cart#minicart-icon": {
+    //     "props": {
+    //       "size": 24
+    //     }
+    //   },
+    // "flex-layout.col#benefits__col-cart--image":{
+    //     "children":[
+    //         "image#benefits__col-cart--image"
+    //     ],
+    //     "props":{
+    //         "verticalAlign": "middle"
+    //         // "borderColor": "blue",
+    //         // "border": "all",
+    //         // "borderWidth": 2
+    //     }
+    // },
+    
+    "flex-layout.col#benefits__col-cart--text":{
+        "children":[
+            "rich-text#benefits__col-cart--text"
+        ],
+        "props":{
+            // "borderColor": "orange",
+            // "border": "all",
+            // "borderWidth": 2
+        }
+    },
+
+    "image#benefits__col-cart--image": {
+        "props": {
+            "blockClass": ["cart"],
+            "maxHeight": 37,
+            "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/envios_icon.png"
+        }
+    },
+
+    "rich-text#benefits__col-cart--text":{
+        "props":{
+            "blockClass": "benefits__col--text",
+            "font": "t-small",
+            "text": "Carrito"
+        }
+    } 
+}

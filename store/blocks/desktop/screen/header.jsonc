@@ -1,0 +1,24 @@
+{
+    "rich-text#prueba":{
+        "props":{
+            "text": "Este es un texto de prueba"
+        }
+    },
+    "header":{
+        "blocks":[
+            "header-layout.desktop"
+        ]
+    },
+    "header.full":{
+        "blocks":[
+            "header-layout.desktop"
+        ]
+    },
+
+    
+    "header-layout.desktop":{
+        "children":[
+            "header-row#desktop__header-container"
+        ]
+    }
+}

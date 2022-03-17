@@ -1,0 +1,54 @@
+{
+    "header-row#desktop__secondary-header": {
+      "children": ["flex-layout.row#desktop__secondary-container--center"],
+      "props": {
+        "blockClass": ["desktop__secondary-header"],
+        "preventVerticalStretch": true
+
+      }
+    },
+
+    // CONTENEDOR PRINCIPAL SECONDARY HEADER
+
+    "flex-layout.row#desktop__secondary-container--center":{
+        "children":[
+            "flex-layout.row#secondary-container__center--menu",
+            "flex-layout.row#secondary-container__center--search"
+        ],
+        "props":{
+            "blockClass": "desktop__container--center",
+            "colSizing": "auto",
+            "preventVerticalStretch": true
+
+        }
+    },
+
+    // SECCION DE MENU EN SECONDARY HEADER
+
+    "flex-layout.row#secondary-container__center--menu":{
+        "children": ["mega-menu"],
+        "props":{
+            "blockClass": "secondary-container__center--menu"
+        }
+
+    },
+
+    // SECCION DE SEARCH BAR EN SECONDARY HEADER
+
+    "flex-layout.row#secondary-container__center--search":{
+        "children": [
+          "search-bar"
+        ],
+        
+        "props":{
+            "blockClass": "secondary-container__center--search"
+        }
+    },
+
+    "search-bar":{
+        "props":{
+          "displayMode": "search-and-clear-buttons",
+          "placeholder": "Buscar por palabra, producto o categoría"
+        }
+      }
+}

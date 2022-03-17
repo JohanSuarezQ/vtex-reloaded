@@ -15,10 +15,11 @@
         ]
     },
 
-    
+
     "header-layout.desktop":{
         "children":[
-            "header-row#desktop__header-container"
+            "header-row#desktop__main-header",
+            "header-row#desktop__secondary-header"
         ]
     }
 }

@@ -1,0 +1,13 @@
+.headerRowContentContainer--desktop__main-header{
+    /* background-color: orange; */
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 67px;
+}
+
+.headerRowContentContainer--desktop__secondary-header{
+    background-color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+}

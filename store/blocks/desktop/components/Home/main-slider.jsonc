@@ -1,0 +1,54 @@
+{
+    "list-context.image-list#desktop__slider-main": {
+      "children": ["slider-layout#slider-main__container"],
+      "props": {
+        "height": 720,
+        "images": [
+          {
+            "image": "https://http2.mlstatic.com/D_NQ_NP_724508-MLA49303939257_032022-OO.jpg",
+            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+            "link":{
+                "url":"https://www.youtube.com"
+            }
+          },
+          {
+            "image": "https://http2.mlstatic.com/D_NQ_NP_600057-MLA49303964198_032022-OO.jpg",
+            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+            "link":{
+                "url":"https://www.youtube.com"
+            }
+          },
+          {
+            "image": "https://http2.mlstatic.com/D_NQ_NP_678917-MLA49291475184_032022-OO.jpg",
+            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+            "link":{
+                "url":"https://www.youtube.com"
+            }
+          },
+          {
+            "image": "https://http2.mlstatic.com/D_NQ_NP_854477-MLA48381706474_112021-OO.jpg",
+            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg",
+            "link":{
+                "url":"https://www.youtube.com"
+            }
+          }
+        ]
+      }
+    },
+    "slider-layout#slider-main__container": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "fullWidth": true,
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "slider-main__container"
+      }
+    }
+  }
+
+  
+  

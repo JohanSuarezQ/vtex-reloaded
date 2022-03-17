@@ -1,0 +1,147 @@
+{
+    // TITULO DE LA SECCION DE GRID
+
+    "flex-layout.row#desktop__grid-layout--title": {
+      "children": ["rich-text#desktop__grid-layout--title"],
+      "props": {
+        "blockClass": ["desktop__container--center"]
+      }
+    },
+    "rich-text#desktop__grid-layout--title":{
+        "props":{
+            "text": "## BUSCÁ POR CATEGORÍAS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"            
+        }
+    },
+
+
+    // GRID LAYOUT
+
+
+    "flex-layout.row#desktop__grid--container":{
+        "children":[
+            "flex-layout.col#grid__container--col-01",
+            "flex-layout.col#grid__container--col-02"
+        ],
+        "props":{
+            "blockClass": ["desktop__grid--container"],
+            // "border": "all",
+            // "borderWidth": 2,
+            // "borderColor": "green",
+            "colGap": 6,
+            "rowGap": 6
+            // "height": 768
+            // "blockClass": "02gridContainer"
+        }
+    },
+
+
+// CONTENEDORES COLUMANS DE LA GRILLA 
+
+
+    "flex-layout.col#grid__container--col-01":{
+        "children":[
+            "flex-layout.row#container__col-01--category-01",
+            "flex-layout.row#container__col-01--category-02"
+        ],
+        "props":{
+            // "border": "all",
+            // "borderWidth": 2,
+            // "borderColor": "red",
+            "blockClass": "grid__container--col-01",
+            "preventVerticalStretch": true
+        }
+
+    },
+    "flex-layout.col#grid__container--col-02":{
+        "children":[
+            "flex-layout.row#container__col-02--category-03",
+            "flex-layout.row#container__col-02--category-04"
+        ],
+        "props":{
+            "preventVerticalStretch": false
+
+            // "border": "all",
+            // "borderWidth": 2,
+            // "borderColor": "red"
+        }
+    },
+
+    // CONTENEDORES CON IMAGENES DE LA GRILLA 
+
+    "flex-layout.row#container__col-01--category-01":{
+        "children":[
+            "image#container__col-01--category-01"
+        ],
+        "props":{
+            "blockClass": "grid__container--image"
+        }
+    },
+
+    "flex-layout.row#container__col-01--category-02":{
+        "children":[
+            "image#container__col-01--category-02"
+        ],
+        "props":{
+            "blockClass": "grid__container--image"
+            // "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#container__col-02--category-03":{
+        "children":[
+            "image#container__col-02--category-03"
+        ],
+        "props":{
+            "blockClass": "grid__container--image"
+
+        }
+    },
+    "flex-layout.row#container__col-02--category-04":{
+        "children":[
+            "image#container__col-02--category-04"
+        ],
+        "props":{
+            "blockClass": "grid__container--image"
+            // "maxHeight": 
+        }
+    },
+
+    "image#container__col-01--category-01":{
+        "props":{
+            "blockClass": "grid__image",
+            "src": "https://mla-s1-p.mlstatic.com/D_NQ_NP_611701-MLA48245272195_112021-OO.jpg",
+            "link":{
+                "url": "https://www.google.com"
+            }
+        }
+    },
+    "image#container__col-01--category-02":{
+        "props":{
+            "blockClass": "grid__image",
+            "src": "https://mla-s2-p.mlstatic.com/D_NQ_NP_641359-MLA48245272284_112021-OO.jpg",
+            "link":{
+                "url": "https://www.google.com"
+            }
+        }
+    },
+    "image#container__col-02--category-03":{
+        "props":{
+            "blockClass": "grid__image",
+            "src": "https://mla-s2-p.mlstatic.com/D_NQ_NP_667243-MLA48245279324_112021-OO.jpg",
+            "link":{
+                "url": "https://www.google.com"
+            }
+        }
+    },
+    "image#container__col-02--category-04":{
+        "props":{
+            "blockClass": "grid__image",
+            "src": "https://mla-s1-p.mlstatic.com/D_NQ_NP_901347-MLA48245282325_112021-OO.jpg",
+            "link":{
+                "url": "https://www.google.com"
+            }
+        }
+    }
+
+}

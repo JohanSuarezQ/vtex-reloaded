@@ -1,0 +1,13 @@
+.logoContainer--desktop__logo{
+    padding: 0;
+}
+
+.searchBarContainer{
+    border-radius: 0;
+    /* background-color: aquamarine; */
+}
+
+.imageElement--grid__image{
+    border-radius: 6px;
+    height: 100%;
+}

@@ -1,0 +1,30 @@
+.flexRow--desktop__container--center {
+  background-color: bisque;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.flexRow--container__center--logo{
+    width: 200px!important;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+.flexRow--desktop__grid--container{
+    background-color: brown;
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+.flexRowContent--grid__container--image{
+    height: 100%
+}
+
+.flexColChild--grid__container--col-01{
+    height: 100%!important;
+}
+
+.flexRow--grid__container--image{
+    height: 100%;
+}

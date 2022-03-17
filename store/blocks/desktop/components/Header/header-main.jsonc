@@ -1,12 +1,12 @@
 {
-    // CONTENEDOR DEL HEADER PRINCIPAL
+    // CONTENEDOR DEL HEADER PRINCIPAL desktop__main-header
 
-    "header-row#desktop__header-container":{
+    "header-row#desktop__main-header":{
         "children":[
             "flex-layout.row#desktop__container--center"
         ],
         "props":{
-            "blockClass": "desktop__header-container"
+            "blockClass": "desktop__main-header"
         }
     },
 

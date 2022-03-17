@@ -1,0 +1,87 @@
+{
+
+    // TITULO DE LA SECCION DE TAB
+
+    
+        // "store.home": {
+        //   "blocks": ["tab-layout#home"]
+        // },
+        "tab-layout#desktop__tab-layout": {
+          "children": [
+              "tab-list#desktop__tab-layout", 
+              "tab-content#desktop__tab-layout"
+            ]
+        },
+        "tab-list#desktop__tab-layout": {
+          "children": [
+              "tab-list.item#desktop__tab-layout--accesories", 
+              "tab-list.item#desktop__tab-layout--popular"
+            ]
+        },
+        "tab-list.item#desktop__tab-layout--accesories": {
+          "props": {
+            "tabId": "ropa&accesorios",
+            "label": "Ropa y Accesorios",
+            "defaultActiveTab": true
+          }
+        },
+        "tab-list.item#desktop__tab-layout--popular": {
+          "props": {
+            "label": "Más populares",
+            "tabId": "maspopulares"
+          }
+        },
+
+
+
+// CONTENIDO PESTAÑAS
+
+        "tab-content#desktop__tab-layout": {
+          "children": [
+            "tab-content.item#tab-layout__accesories--content", 
+            "tab-content.item#tab-layout__popular--content"
+        ]
+        },
+
+        // PESTAÑA 01
+
+        "tab-content.item#tab-layout__accesories--content": {
+          "children": ["list-context.product-list#desktop__product-list-one"],
+          "props": {
+            "tabId": "ropa&accesorios"
+          }
+        },
+        
+        "rich-text#home1": {
+          "props": {
+            "text": "CONTENIDO PARA ROPA Y ACCESORIOS",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+          }
+        },
+
+
+        // PESTAÑA 02
+
+        "tab-content.item#tab-layout__popular--content": {
+          "children": ["list-context.product-list#desktop__product-list-two"],
+          "props": {
+            "tabId": "maspopulares"
+          }
+        },
+        "rich-text#home2": {
+          "props": {
+            "text": "CONTENIDO PARA MAS POPULARES",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+          }
+        }
+      
+
+
+        // lista de productos para slider 
+
+
+    
+  }
+  

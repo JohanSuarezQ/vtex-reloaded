@@ -1,0 +1,105 @@
+{
+    //DECLARACIÓN DEL CONTEXT LIST Y SU SHELF PARA LISTA DE 4 PRODUCTOS
+
+
+"list-context.product-list#desktop__product-list-one": {
+    "blocks": ["product-summary.shelf#desktop__product-list-one"],
+    "children": [
+        "slider-layout#desktop__product-list-one"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+
+  // MODIFICACIONES SHELF
+
+  "product-summary.shelf#desktop__product-list-one": {
+    "children": [
+      "product-summary-image#desktop__product-list-one--image",
+      "product-summary-price#desktop__product-list-one--price",
+      "product-summary-name#desktop__product-list-one--name"
+    ]
+  },
+
+  "product-summary-image#desktop__product-list-one--image": {
+    "props": {
+      "showBadge": false,
+      "height": 220
+    }
+  },
+  "product-summary-price#desktop__product-list-one--price": {
+    "props": {
+      "showInstallments": true,
+      "showLabels": false
+    }
+  },
+  "product-summary-name#desktop__product-list-one--name":{},
+
+//   PROPS SLIDER DE PRODUCTOS
+
+  "slider-layout#desktop__product-list-one": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "desktop__product-list-one"
+    }
+  },
+
+  //DECLARACIÓN DEL CONTEXT LIST Y SU SHELF PARA LISTA DOS
+
+
+"list-context.product-list#desktop__product-list-two": {
+    "blocks": ["product-summary.shelf#desktop__product-list-two"],
+    "children": [
+        "slider-layout#desktop__product-list-two"
+    ],
+    "props": {
+      "orderBy": "OrderByNameASC"
+    }
+  },
+
+  // MODIFICACIONES SHELF
+
+  "product-summary.shelf#desktop__product-list-two": {
+    "children": [
+      "product-summary-image#desktop__product-list-two--image",
+      "product-summary-price#desktop__product-list-two--price",
+      "product-summary-name#desktop__product-list-two--name"
+    ]
+  },
+
+  "product-summary-image#desktop__product-list-two--image": {
+    "props": {
+      "showBadge": false,
+      "height": 220
+    }
+  },
+  "product-summary-price#desktop__product-list-two--price": {
+    "props": {
+      "showInstallments": true,
+      "showLabels": false
+    }
+  },
+  "product-summary-name#desktop__product-list-two--name":{},
+
+//   PROPS SLIDER DE PRODUCTOS
+
+  "slider-layout#desktop__product-list-two": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "desktop__product-list-two"
+    }
+  }
+}

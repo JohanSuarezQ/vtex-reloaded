@@ -3,8 +3,9 @@
     "blocks": [
       "list-context.image-list#desktop__slider-main",
       "flex-layout.row#desktop__grid-layout--title",
-      "flex-layout.row#desktop__grid--container"
-      // "rich-text#03-slider-products-title",
+      "flex-layout.row#desktop__grid--container",
+      "tab-layout#desktop__tab-layout"
+      // "flex-layout.row#desktop__tab-layout--title"
       // "flex-layout.row#03-shelf-slider",
       // "flex-layout.row#04-banner-cta",
       // "flex-layout.row#05-banner-cta",

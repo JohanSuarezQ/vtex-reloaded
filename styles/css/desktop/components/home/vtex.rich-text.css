@@ -1,0 +1,13 @@
+.paragraph--desktop__banner-cta-01--text {
+  display: inline-block;
+  margin-top: 14px;
+  font-family: Mulish, sans-serif;
+  color: #fff;
+  font-size: 50px;
+  line-height: 70px;
+  font-style: italic;
+  font-weight: 900;
+  text-shadow: 0 3px 16px #000;
+  text-align: center;
+  width: 100% !important;
+}

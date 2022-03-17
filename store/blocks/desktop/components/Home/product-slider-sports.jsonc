@@ -1,0 +1,74 @@
+{
+    "flex-layout.row#desktop__product-slider--title": {
+      "children": ["rich-text#desktop__product-slider--title"],
+      "props": {
+        "blockClass": ["desktop__container--center"]
+      }
+    },
+
+    "rich-text#desktop__product-slider--title": {
+      "props": {
+        "text": "#### ¡Lo más vistos en deportes!",
+        "blockClass": "shelfTitle, banner-container",
+        "textAlignment": "left"
+      }
+    },
+  
+    "flex-layout.row#desktop__product-slider": {
+      "children": [
+          "list-context.product-list#desktop__product-list-one"
+        ],
+      "props":{
+          "blockClass": "desktop__container--center"
+      }
+    }
+  
+//     //DECLARACIÓN DEL CONTEXT LIST Y SU SHELF
+  
+//     "list-context.product-list#desktop__product-slider--product-list": {
+//       "blocks": ["product-summary.shelf#product-slider__product-list--shelf"],
+//       "children": ["slider-layout#06-product-slider"],
+//       "props": {
+//         "orderBy": "OrderByTopSaleDESC"
+//       }
+//     },
+  
+//     // MODIFICACIONES SHELF
+  
+//     "product-summary.shelf#product-slider__product-list--shelf": {
+//       "children": [
+//         "product-summary-image#",
+//         "product-summary-price#",
+//         "product-summary-name#"
+//       ]
+//     },
+  
+//     "product-summary-image#": {
+//       "props": {
+//         "showBadge": false,
+//         "height": 220
+//       }
+//     },
+//     "product-summary-price#": {
+//       "props": {
+//         "showInstallments": true,
+//         "showLabels": false
+//       }
+//     },
+  
+//   //   PROPS SLIDER DE PRODUCTOS
+  
+//     "slider-layout#06-product-slider": {
+//       "props": {
+//         "itemsPerPage": {
+//           "desktop": 5,
+//           "tablet": 3,
+//           "phone": 1
+//         },
+//         "infinite": true,
+//         "fullWidth": false,
+//         "blockClass": "shelf"
+//       }
+//     }
+  }
+  

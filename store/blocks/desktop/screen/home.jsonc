@@ -4,14 +4,12 @@
       "list-context.image-list#desktop__slider-main",
       "flex-layout.row#desktop__grid-layout--title",
       "flex-layout.row#desktop__grid--container",
-      "tab-layout#desktop__tab-layout"
-      // "flex-layout.row#desktop__tab-layout--title"
-      // "flex-layout.row#03-shelf-slider",
-      // "flex-layout.row#04-banner-cta",
-      // "flex-layout.row#05-banner-cta",
-      // "rich-text#06-slider-products-title",
-      // "flex-layout.row#06-shelf-slider",
-      // "flex-layout.row#07-banner-cta",
+      "tab-layout#desktop__tab-layout",
+      "flex-layout.row#desktop__banner-cta-01",
+      "flex-layout.row#desktop__banner-cta-02",
+      "flex-layout.row#desktop__product-slider--title",
+      "flex-layout.row#desktop__product-slider",
+      "flex-layout.row#desktop__banner-cta-03"
       // "rich-text#08-slider-products-title",
       // "flex-layout.row#08-shelf-slider",
       // "flex-layout.row#09-newsletter"

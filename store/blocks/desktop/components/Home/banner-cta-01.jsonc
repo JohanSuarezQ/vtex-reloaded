@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#desktop__banner-cta-01": {
+      "children": ["stack-layout#desktop__banner-cta-01"],
+      "props": {
+        "blockClass": ["desktop__container--center"]
+      }
+    },
+  
+    "stack-layout#desktop__banner-cta-01": {
+      "children": [
+          "image#desktop__banner-cta-01--image", 
+          "link#desktop__banner-cta-01--link", 
+          "rich-text#desktop__banner-cta-01--text"
+      ],
+      "props":{
+        "blockClass": "desktop__banner-cta"
+      }
+    },
+    "image#desktop__banner-cta-01--image": {
+      "props": {
+         "blockClass": "desktop__banner-cta-01--image",
+        "width": "100%",
+        "height": 160,
+        "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/banner-inferior-custon-html-mujer.jpg"
+      }
+    },
+    "link#desktop__banner-cta-01--link": {
+      "props": {
+          "blockClass": "desktop__banner-cta-01--link",
+        "displayMode": "button",
+        "buttonProps": {
+          "variant": "primary",
+          "size": "large"
+        },
+        "href": "https://www.youtube.com",
+        "label": "CONOCE MÁS"
+      }
+    },
+    "rich-text#desktop__banner-cta-01--text": {
+      "props": {
+        "blockClass": "desktop__banner-cta-01--text",
+        "text": "ZAPATOS MUJER",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    }
+  }
+  

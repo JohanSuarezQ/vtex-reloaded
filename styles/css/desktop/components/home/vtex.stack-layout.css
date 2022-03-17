@@ -1,0 +1,15 @@
+.stackItem--desktop__banner-cta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+}
+
+.stackItem--desktop__banner-cta-variant {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: end;
+}

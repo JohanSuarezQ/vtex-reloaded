@@ -1,7 +1,93 @@
 {
   "store.search": {
     "blocks": [
-      
+      "search-result-layout"
     ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#desktop__search-main"
+      // "flex-layout.row#desktop__search-results"
+      // "breadcrumb.search",
+      // "search-title.v2",
+      // "total-products.v2",
+      // "order-by.v2",
+      // "search-fetch-previous",
+      // "search-content",
+      // "filter-navigator.v3",
+      // "search-fetch-more"
+    ],
+    "props":{
+      "blockClass": "desktop__search-result-container"
+    }
+    
+  },
+
+  "flex-layout.row#desktop__search-main": {
+    "children": [
+      "flex-layout.col#desktop__search-main--side-bar",
+      "flex-layout.col#desktop__search-main--search-result"
+    ]
+  },
+
+  // COMPONENTES PARA EL SIDE BAR DE LA PÁGINA 
+
+  "flex-layout.col#desktop__search-main--side-bar":{
+    "children":[
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "filter-navigator.v3"
+    ],
+    "props":{
+      "width": "25%",
+      "borderColor": "red",
+      "borderWidth": 1,
+      "border": "all"
+    }
+  },
+
+
+  "filter-navigator.v3":{
+
+  },
+
+
+
+
+
+
+  // COMPONENTES PARA LOS RESULTADOS DE BÚSQUEDA EN LA PÁGINA
+
+
+  "flex-layout.col#desktop__search-main--search-result":{
+    "children":[
+      "order-by.v2",
+      "search-content"
+    ],
+    "props":{
+      "width": "75%",
+      "borderColor": "blue",
+      "borderWidth": 1,
+      "border": "all"
+    }
   }
+
+  // "flex-layout.row#desktop__search-results":{
+  //   "children":[
+  //     "breadcrumb.search"
+  //   ],
+  //   "props":{
+  //     "borderColor": "blue",
+  //     "borderWidth": 1,
+  //     "border": "all"
+  //   }
+  // }
 }

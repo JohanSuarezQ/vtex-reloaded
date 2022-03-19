@@ -1,0 +1,5 @@
+.container--layout--desktop__search-result-container {
+  background-color: aqua;
+  max-width: 1170px;
+  /* margin: 0 auto; */
+}

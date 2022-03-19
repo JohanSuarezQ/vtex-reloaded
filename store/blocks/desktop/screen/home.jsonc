@@ -7,12 +7,12 @@
       "tab-layout#desktop__tab-layout",
       "flex-layout.row#desktop__banner-cta-01",
       "flex-layout.row#desktop__banner-cta-02",
-      "flex-layout.row#desktop__product-slider--title",
-      "flex-layout.row#desktop__product-slider",
-      "flex-layout.row#desktop__banner-cta-03"
-      // "rich-text#08-slider-products-title",
-      // "flex-layout.row#08-shelf-slider",
-      // "flex-layout.row#09-newsletter"
+      "flex-layout.row#desktop__product-slider-sports--title",
+      "flex-layout.row#desktop__product-slider-sports",
+      "flex-layout.row#desktop__banner-cta-03",
+      "flex-layout.row#desktop__product-slider-boots--title",
+      "flex-layout.row#desktop__product-slider-boots",
+      "flex-layout.row#desktop__newsletter"
     ]
   }
 }

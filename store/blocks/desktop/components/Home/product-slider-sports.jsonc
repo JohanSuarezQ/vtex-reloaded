@@ -1,12 +1,12 @@
 {
-    "flex-layout.row#desktop__product-slider--title": {
-      "children": ["rich-text#desktop__product-slider--title"],
+    "flex-layout.row#desktop__product-slider-sports--title": {
+      "children": ["rich-text#desktop__product-slider-sports--title"],
       "props": {
         "blockClass": ["desktop__container--center"]
       }
     },
 
-    "rich-text#desktop__product-slider--title": {
+    "rich-text#desktop__product-slider-sports--title": {
       "props": {
         "text": "#### ¡Lo más vistos en deportes!",
         "blockClass": "shelfTitle, banner-container",
@@ -14,7 +14,7 @@
       }
     },
   
-    "flex-layout.row#desktop__product-slider": {
+    "flex-layout.row#desktop__product-slider-sports": {
       "children": [
           "list-context.product-list#desktop__product-list-one"
         ],

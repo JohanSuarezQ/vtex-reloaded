@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#desktop__newsletter": {
+      "children": [    
+        "flex-layout.col#desktop__newsletter--text",
+        "flex-layout.col#desktop__newsletter--form"
+      ],
+      "props":{
+          "blockClass": [
+            "desktop__container--center",
+            "desktop__newsletter"
+        ],
+        "props":{
+        "preventVerticalStretch": "true"
+
+        }
+        // "borderColor": "#000",
+        // "borderWidth": 1,
+        // "border": "all"  
+      }
+    },
+    "flex-layout.col#desktop__newsletter--text": {
+      "children": [
+        "rich-text#desktop__newsletter--text"
+      ],
+      "props":{
+        "blockClass": "desktop__newsletter--text",
+        "borderColor": "red",
+        "borderWidth": 1,
+        "border": "all"
+      }
+    },
+
+    "flex-layout.col#desktop__newsletter--form":{
+        "children":[
+            "newsletter-form#desktop__newsletter--form"
+        ],
+        "props":{
+
+            "blockClass": "desktop__newsletter--form",
+            "borderColor": "blue",
+            "borderWidth": 1,
+            "border": "all"
+        }
+    },
+    "rich-text#desktop__newsletter--text":{
+        "props":{
+            "blockClass": "desktop__newsletter--text",
+            "text": "## ¡Suscríbete a nuestro boletín! \n #### Y recibe un cupón de 15% off en tu siguiente compra. "
+        }
+    },
+    "newsletter-form#desktop__newsletter--form":{
+        "children":[
+            "newsletter-input-email",
+            "newsletter-submit",
+            "rich-text#prueba",
+            "newsletter-checkbox-confirmation"
+        ]
+    }
+
+}

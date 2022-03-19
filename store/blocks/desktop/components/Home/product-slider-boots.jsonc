@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#desktop__product-slider-boots--title": {
+      "children": ["rich-text#desktop__product-slider-boots--title"],
+      "props": {
+        "blockClass": ["desktop__container--center"]
+      }
+    },
+
+    "rich-text#desktop__product-slider-boots--title": {
+      "props": {
+        "text": "#### ¡Botas para todos!",
+        "blockClass": "shelfTitle, banner-container",
+        "textAlignment": "left"
+      }
+    },
+  
+    "flex-layout.row#desktop__product-slider-boots": {
+      "children": [
+          "list-context.product-list#desktop__product-list-two"
+        ],
+      "props":{
+          "blockClass": "desktop__container--center"
+      }
+    }
+  }
+  

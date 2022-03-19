@@ -11,3 +11,7 @@
   text-align: center;
   width: 100% !important;
 }
+
+.wrapper--desktop__newsletter--text{
+  height: 100px!important;
+}

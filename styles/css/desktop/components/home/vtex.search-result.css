@@ -1,5 +1,44 @@
 .container--layout--desktop__search-result-container {
-  background-color: aqua;
+  /* background-color: aqua; */
   max-width: 1170px;
   /* margin: 0 auto; */
+}
+
+.gallery--desktop__gallery {
+  padding: 0;
+}
+
+.galleryItem--desktop__gallery {
+  /* padding: 20px 50px 20px 0!important; */
+}
+
+.galleryTitle--layout {
+  margin: 0 !important;
+  color: #333;
+  display: block;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-right: 16px;
+}
+
+.totalProducts--layout {
+  padding: 0;
+  text-align: left;
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.29;
+}
+
+.filterTitleSpan {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.filterTemplateOverflow {
+  max-height: 100% !important;
 }

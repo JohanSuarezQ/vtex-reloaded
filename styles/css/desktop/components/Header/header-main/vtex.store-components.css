@@ -7,6 +7,10 @@
     /* background-color: aquamarine; */
 }
 
+/* .searchBarContainer :global(.vtex-input-prefix__group){
+ border-radius: 50px;
+} */
+
 .imageElement--grid__image{
     border-radius: 6px;
     height: 100%;

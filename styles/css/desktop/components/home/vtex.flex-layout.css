@@ -6,3 +6,19 @@
 .flexCol--desktop__newsletter--text{
     height: 100%;
 }
+
+.flexColChild--desktop__search-main--search-result{
+    height: auto!important;
+}
+
+.flexRowContent--desktop__gallery--products{
+    height: 200px!important;
+}
+
+.flexColChild--gallery__products--info{
+    height: fit-content!important;
+}
+
+/* .flexColChild--gallery__products--image{
+    max-height: 190px;
+} */

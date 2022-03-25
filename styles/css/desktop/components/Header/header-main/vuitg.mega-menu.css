@@ -276,7 +276,7 @@
     color: #ffd03c !important;
   }
   .item_node_active {
-    background-color: #ec6e3e;
+    /* background-color: #ec6e3e; */
     color: white;
   }
   .link {

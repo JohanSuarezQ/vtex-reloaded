@@ -45,10 +45,15 @@
         }
     },
 
+   
+
     "search-bar":{
+      "blocks": ["autocomplete-result-list.v2"],
         "props":{
           "displayMode": "search-and-clear-buttons",
-          "placeholder": "Buscar por palabra, producto o categoría"
+          "placeholder": "Buscar por palabra, producto o categoría",
+          "openAutocompleteOnFocus": true
+
         }
       }
 }

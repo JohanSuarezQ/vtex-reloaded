@@ -3,3 +3,7 @@
     width: 1170px;
     margin: auto;
 }
+
+.flexCol--layout__product-info--left{
+    padding: 20px;
+}

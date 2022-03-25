@@ -1,0 +1,14 @@
+.carouselThumbBorder{
+    /* border: 1px solid orange;
+    width: 44px;
+    height: 44px; */
+}
+
+.carouselGaleryThumbs{
+    width: 8%!important;
+}
+
+.carouselGaleryCursor{
+    margin: 0;
+    padding: 0;
+}

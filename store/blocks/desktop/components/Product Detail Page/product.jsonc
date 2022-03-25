@@ -7,13 +7,31 @@
 
   "flex-layout.row#desktop__pdp--layout": {
     "children": [
-      "flex-layout.row#pdp__layout--breadcumb-and-share-bar",
-      "flex-layout.row#pdp__layout--product-info"
+      "flex-layout.col#desktop__pdp--layout"
     ],
     "props": {
       "blockClass": ["desktop__pdp--layout"]
     }
   },
+
+  "flex-layout.row#table":{
+    "children":[
+      "product-specification-group#table"
+    ]
+  },
+
+
+
+  "flex-layout.col#desktop__pdp--layout": {
+    "children": [
+      "flex-layout.row#pdp__layout--breadcumb-and-share-bar",
+      "flex-layout.row#pdp__layout--product-info"
+  ],
+    "props": {
+      "blockClass": ["desktop__pdp--layout"]
+    }
+  },
+
   "flex-layout.row#pdp__layout--breadcumb-and-share-bar": {
     "children": [
       "breadcrumb",
@@ -22,6 +40,9 @@
     "props": {
       "blockClass": ["pdp__layout--breadcumb-and-share-bar"],
       "colSizing": "auto"
+      // "borderColor": "blue",
+      // "borderWidth": 1,
+      // "border": "all"
     }
   },
 
@@ -32,106 +53,173 @@
     ],
     "props": {
       "blockClass": ["pdp__layout--product-info"]
+      // "borderColor": "black",
+      // "borderWidth": 1,
+      // "border": "all"
     }
   },
 
   "flex-layout.col#layout__product-info--left": {
-    "children": ["product-images"],
+    "children": [
+      "product-images",
+      "product-separator",
+      "flex-layout.row#table",
+      "product-separator",
+      "product-description",
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers"
+
+    ],
     "props": {
       "blockClass": ["layout__product-info--left"],
-      "width": "70%"
+      "width": "65%"
+      // "borderColor": "red",
+      // "borderWidth": 1,
+      // "border": "all"
+    }
+  },
+
+  "shelf.relatedProducts": {
+    "blocks": [
+      "product-summary.shelf#desktop__product-list-two"
+    ],
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Otros productos similares",
+            "itemsPerPage": 4
+        }
+    }
+},
+
+  "product-images":{
+    "props":{
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "maxHeight": 500
+      // "aspectRatio" : "4.3"
+      // "thumbnailAspectRatio": "3:4"
     }
   },
 
   "flex-layout.col#layout__product-info--right": {
-    "children": [""],
+    "children": [
+      // "product-name",
+      // "product-rating-summary",
+      // "product-price#product-details",
+      // "product-separator",
+      // "product-quantity",
+      // "product-identifier.product",
+      // "sku-selector",
+      // "flex-layout.row#buy-button",
+      // "availability-subscriber",
+      // "shipping-simulator",
+      // "share"
+
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      "flex-layout.row#list-price-savings",
+      "flex-layout.row#selling-price",
+      "product-installments",
+      "product-separator",
+      "product-identifier.product",
+      "sku-selector",
+      "product-quantity",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "availability-subscriber",
+      "shipping-simulator"
+
+    ],
     "props": {
       "blockClass": ["layout__product-info--left"],
-      "width": "30%"
+      "width": "35%",
+      "preventVerticalStretch": true
+      // "borderColor": "red",
+      // "borderWidth": 1,
+      // "border": "all"
+    }
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["add-to-cart-button"]
+  },
+
+  "flex-layout.row#product-availability": {
+    "props": {
+      "colGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7
+    },
+    "children": [
+      // "flex-layout.col#stack",
+      "flex-layout.col#right-col-availability"
+    ]
+  },
+  "flex-layout.col#right-col-availability": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "info-availability"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "sku-selector",
+      "flex-layout.row#availability"
+    ]
+  },
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "message-availability"
+    },
+    "children": ["availability-subscriber"]
+  },
+
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
     }
   }
 
-  // "flex-layout.row#pdp_container": {
-  //   "children": [
-  //     "flex-layout.row#product-breadcrumb",
-  //     "flex-layout.row#product-main",
-  //     "shelf.relatedProducts"
-  //   ],
+  // "product-price#product-details": {
   //   "props": {
-  //     "blockClass": ["pdp_container"]
+  //     "showInstallments": true,
+  //     "showSavings": true
   //   }
   // },
+  // "flex-layout.row#buy-button": {
+  //   "props": {
+  //     "marginTop": 4,
+  //     "marginBottom": 7
+  //   },
+  //   "children": ["buy-button"]
+  // }
 
-  //   "flex-layout.row#product-breadcrumb": {
-  //     "props": {
-  //       "marginTop": 4
-  //     },
-  //     "children": ["breadcrumb"]
-  //   },
-  //   "flex-layout.row#product-main": {
-  //     "props": {
-  //       "colGap": 7,
-  //       "rowGap": 7,
-  //       "marginTop": 4,
-  //       "marginBottom": 7,
-  //       "paddingTop": 7,
-  //       "paddingBottom": 7
-  //     },
-  //     "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
-  //   },
-  //   "flex-layout.col#product-image": {
-  //     "props": {
-  //       "width": "60%",
-  //       "rowGap": 0
-  //     },
-  //     "children": ["product-images"]
-  //   },
-  //   "product-images": {
-  //     "props": {
-  //       "displayThumbnailsArrows": true
-  //     }
-  //   },
-  //   "flex-layout.col#right-col": {
-  //     "props": {
-  //       "preventVerticalStretch": true,
-  //       "rowGap": 0
-  //     },
-  //     "children": [
-  //       "product-name",
-  //       // "product-rating-summary",
-  //       "product-price#product-details",
-  //       "product-separator",
-  //       "product-quantity",
-  //       "product-identifier.product",
-  //       "sku-selector",
-  //       "flex-layout.row#buy-button",
-  //       "availability-subscriber",
-  //       "shipping-simulator",
-  //       "share#default"
-  //     ]
-  //   },
-  //   "product-price#product-details": {
-  //     "props": {
-  //       "showInstallments": true,
-  //       "showSavings": true
-  //     }
-  //   },
-  //   "flex-layout.row#buy-button": {
-  //     "props": {
-  //       "marginTop": 4,
-  //       "marginBottom": 7
-  //     },
-  //     "children": ["buy-button"]
-  //   },
-
-  //   "share#default": {
-  //     "props": {
-  //       "social": {
-  //         "Facebook": true,
-  //         "WhatsApp": true,
-  //         "Twitter": false,
-  //         "Pinterest": true
-  //       }
-  //     }
-  //   }
 }

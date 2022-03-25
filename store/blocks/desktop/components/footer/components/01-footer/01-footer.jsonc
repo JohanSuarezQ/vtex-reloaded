@@ -1,0 +1,29 @@
+{
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "logo#logo-desktop",
+      "vtex.menu@2.x:menu#contact-info",
+      "vtex.menu@2.x:menu#information",
+      "flex-layout.row#certificates"
+    //   "social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "preventHorizontalStretch": true
+    }
+  },
+
+
+  "logo#logo-desktop": {
+    "props": {
+      "title": "Logo Desktop",
+      "href": "https://www.google.com",
+      "url": "https://mshopsoficiales.kubocloud.com/mx/croydon/logo-Crodon.png",
+      "width": 190,
+      "color": "orange"
+    }
+  }
+
+}

@@ -1,0 +1,207 @@
+{
+  // COLUMNA 1 ----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>
+    "vtex.menu@2.x:menu#contact-info": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "rich-text#contact-info__title-one",
+        "menu-item#national-phone",
+        "menu-item#local-phone",
+        "menu-item#extensions",
+        "menu-item#schedule"
+      ]
+    },
+
+    "rich-text#contact-info__title-one": {
+      "props": {
+        "blockClass": ["contact-info__title"],
+        "text": "#### CONTÁCTANOS",
+        "textAlignment": "CENTER",
+        "textColor": "c-on-base",
+        "textPosition": "CENTER"
+      }
+    },
+    "menu-item#national-phone": {
+      "props": {
+        "id": "menu-item-national-phone",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Linea Nacional gratuita",
+          "text": "Linea Nacional gratuita 01 8000 413536"
+        }
+      }
+    },
+    "menu-item#local-phone": {
+      "props": {
+        "id": "menu-item-local-phone",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "bogota",
+          "text": "En Bogotá (1) 770 9240"
+        }
+      }
+    },
+    "menu-item#extensions": {
+      "props": {
+        "id": "menu-item-extensions",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Extensiones",
+          "text": "Extensiones 133, 132 y 125"
+        }
+      }
+    },
+    "menu-item#schedule": {
+      "props": {
+        "id": "menu-item-schedule",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Horario",
+          "text": "Horario de atención: \n Lunes a Viernes de 7.30 a.m.  a 5:30 p.m."
+        }
+      }
+    },
+    "menu-item#email": {
+      "props": {
+        "id": "menu-item-email",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Email",
+          "text": "servicioalcliente@croydon.com.co"
+        }
+      }
+    },
+
+  // COLUMNA 2 ----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+  
+    "vtex.menu@2.x:menu#information": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "rich-text#contact-info__title-two",
+        "menu-item#how-to-buy",
+        "menu-item#warranty",
+        "menu-item#terms-conditions",
+        "menu-item#policies",
+        "menu-item#rights"
+      ]
+    },
+
+    "rich-text#contact-info__title-two": {
+      "props": {
+        "blockClass": ["contact-info__title-two"],
+        "text": "#### INFORMACIÓN",
+        "textAlignment": "CENTER",
+        "textColor": "c-on-base",
+        "textPosition": "CENTER"
+      }
+    },
+  
+    "menu-item#how-to-buy": {
+      "props": {
+        "id": "how-to-buy",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Como comprar",
+          "text": "¿Como comprar?"
+        }
+      }
+    },
+  
+    "menu-item#warranty": {
+      "props": {
+        "id": "warranty",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Garantía",
+          "text": "Cambios, garantías y devoluciones"
+        }
+      }
+    },
+  
+    "menu-item#terms-conditions": {
+      "props": {
+        "id": "terms-conditions",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Términos y condiciones",
+          "text": "Términos y condiciones"
+        }
+      }
+    },
+    "menu-item#policies": {
+      "props": {
+        "id": "policies",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Políticas",
+          "text": "Política de tratamiento de datos personales"
+        }
+      }
+    },
+    "menu-item#rights": {
+      "props": {
+        "id": "rights",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": true,
+          "tagTitle": "Derechos",
+          "text": "Conoce tus derechos como comprador digital"
+        }
+      }
+    }
+
+  }
+  

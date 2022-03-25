@@ -1,5 +1,5 @@
 .flexRow--desktop__container--center {
-  background-color: bisque;
+  /* background-color: bisque; */
   width: 1170px;
   margin: 0 auto;
 }
@@ -11,7 +11,7 @@
 }
 
 .flexRow--desktop__grid--container{
-    background-color: brown;
+    /* background-color: brown; */
     width: 1170px;
     margin: 0 auto;
 

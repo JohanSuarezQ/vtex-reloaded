@@ -9,13 +9,21 @@
     },
     "rich-text#desktop__grid-layout--title":{
         "props":{
-            "text": "## BUSCÁ POR CATEGORÍAS",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"            
+            "text": "### BUSCÁ POR CATEGORÍAS",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"            
         }
     },
-
-
+"rich-text#name": {
+  "props": {
+    "blockClass": ["name"],
+    "font": "t-body",
+    "text": "",
+    "textAlignment": "CENTER",
+    "textColor": "c-on-base",
+    "textPosition": "CENTER"
+  }
+},
     // GRID LAYOUT
 
 
@@ -26,13 +34,9 @@
         ],
         "props":{
             "blockClass": ["desktop__grid--container"],
-            // "border": "all",
-            // "borderWidth": 2,
-            // "borderColor": "green",
             "colGap": 6,
-            "rowGap": 6
-            // "height": 768
-            // "blockClass": "02gridContainer"
+            "rowGap": 6,
+            "marginBottom": 8
         }
     },
 

@@ -2,7 +2,8 @@
     "flex-layout.row#desktop__banner-cta-03": {
       "children": ["stack-layout#desktop__banner-cta-03"],
       "props": {
-        "blockClass": ["desktop__container--center"]
+        "blockClass": ["desktop__container--center"],
+        "marginBottom": 8
       }
     },
   

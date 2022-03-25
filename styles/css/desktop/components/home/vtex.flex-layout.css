@@ -1,23 +1,31 @@
-.flexRow--desktop__newsletter{
-    background-color: #ff23ff6f!important;
-    height: 90px;
+.flexRow--desktop__newsletter {
+  background-color: #dadada;
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  height: 120px;
+  border-bottom: 5px solid black;
 }
 
-.flexCol--desktop__newsletter--text{
-    height: 100%;
+.flexCol--desktop__newsletter--text {
+  height: 100%;
 }
 
-.flexColChild--desktop__search-main--search-result{
-    height: auto!important;
+.flexColChild--desktop__search-main--search-result {
+  height: auto !important;
 }
 
-.flexRowContent--desktop__gallery--products{
-    height: 200px!important;
+.flexRowContent--desktop__gallery--products {
+  height: 200px !important;
 }
 
-.flexColChild--gallery__products--info{
-    height: fit-content!important;
+.flexColChild--gallery__products--info {
+  height: fit-content !important;
 }
+
+/* .flexCol--desktop__newsletter--text{
+    padding-top: 0 20px 0 20px!important;
+} */
 
 /* .flexColChild--gallery__products--image{
     max-height: 190px;

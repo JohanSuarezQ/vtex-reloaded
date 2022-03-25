@@ -1,0 +1,66 @@
+{
+    
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#footer-2-desktop"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "marginTop": 1
+        }
+  },
+
+
+  "flex-layout.col#footer-2-desktop": {
+    "children": [
+      "flex-layout.row#footer-2-desktop__tittle",
+      "flex-layout.row#footer-2-desktop__paymets"
+    ],
+    "props": {
+      "blockClass": ["footer-2-desktop"]
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop__tittle": {
+    "children": [
+      "rich-text#footer-2-desktop__tittle"
+    ],
+    "props": {
+      "blockClass": ["footer-2-desktop__tittle"]
+    }
+  },
+
+  "rich-text#footer-2-desktop__tittle": {
+    "props": {
+      "blockClass": ["footer-2-desktop__tittle"],
+      "font": "t-body",
+      "text": "##### Tu pagos fáciles y 100% seguros, tarjeta de crédito o débito, efectivo o transferencia.",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop__paymets": {
+    "children": ["image#name"],
+    "props": {
+      "blockClass": ["footer-2-desktop__paymets"]
+    }
+  },
+
+
+
+"image#name": {
+  "props": {
+    "blockClass": ["name"],
+    // "maxHeight": 24,
+    "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/bancos.png"
+  }
+}
+
+  // "accepted-payment-methods": {
+  //   "props": {
+  //     "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+  //   }
+  // }
+}

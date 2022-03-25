@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#certificates": {
+    "children": [
+      "flex-layout.col#certificates"
+    ]
+  },
+  "rich-text#rich-text#contact-info__title-three": {
+    "props": {
+      "blockClass": ["rich-text#contact-info__title-three"],
+      "font": "t-body",
+      "text": "CERTIFICADOS",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.col#certificates": {
+    "children": [
+      "rich-text#rich-text#contact-info__title-three",
+
+      "flex-layout.row#01-certificates",
+      "flex-layout.row#02-certificates"
+    ]
+  },
+
+  "flex-layout.row#01-certificates": {
+    "children": ["rich-text#prueba"]
+  },
+  "flex-layout.row#02-certificates": {
+    "children": ["image#01-certificates", "image#02-certificates"]
+  },
+
+  "image#01-certificates": {
+    "props": {
+      "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/Logo_Icontec_proceso.png",
+      "maxHeight": 90
+    }
+  },
+  "image#02-certificates": {
+    "props": {
+      "src": "https://mshopsoficiales.kubocloud.com/mx/croydon/buen_clic.png",
+      "maxHeight": 90
+    }
+  }
+}

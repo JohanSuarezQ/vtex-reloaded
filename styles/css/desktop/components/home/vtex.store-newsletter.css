@@ -1,0 +1,18 @@
+.emailInputContainer {
+  width: 60% !important;
+}
+
+.formSubmitContainer {
+  /* background-color: aqua; */
+  width: 40%;
+  display: flex;
+  position: relative;
+  top: -40px;
+  left: 350px;
+  padding-left: 10px;
+}
+
+.confirmationCheckboxContainer{
+    position: relative;
+    bottom: 25px;
+  }

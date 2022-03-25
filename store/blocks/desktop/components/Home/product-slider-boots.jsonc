@@ -19,7 +19,8 @@
           "list-context.product-list#desktop__product-list-two"
         ],
       "props":{
-          "blockClass": "desktop__container--center"
+          "blockClass": "desktop__container--center",
+          "marginBottom": 10
       }
     }
   }
